@@ -6,3 +6,4 @@ def disemvowel(string_):
             result += item
     return(result)
 print(disemvowel("peter is lovely"))
+#You have passed all of the tests! :)
