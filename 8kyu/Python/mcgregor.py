@@ -9,5 +9,3 @@ def quote(fighter):
         return "I'd like to take this chance to apologize.. To absolutely NOBODY!"
     else:
         return "Invalid fighter name."
-    
-    #You have passed all of the tests! :)
