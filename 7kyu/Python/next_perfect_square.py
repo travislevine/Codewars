@@ -13,3 +13,4 @@ def find_next_square(sq):
     return -1
 
 print(find_next_square(100))
+#https://www.codewars.com/kata/56269eb78ad2e4ced1000013/train/python
