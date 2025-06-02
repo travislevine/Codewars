@@ -1,2 +1,6 @@
 def decode(message):
-    pass
+    for char in message:
+        if char == ' ':
+            message.append(char)
+        else:
+            pass
