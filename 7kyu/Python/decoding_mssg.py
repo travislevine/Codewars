@@ -3,4 +3,4 @@ def decode(message):
         if char == ' ':
             message.append(char)
         else:
-            pass
+            char.indexOf()
