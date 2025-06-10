@@ -1,4 +1,3 @@
-
 def alphabet_position(text):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     postions = ""
