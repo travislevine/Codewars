@@ -21,4 +21,3 @@ def sort_by_length_manual(arr):
                 # Set the flag to True as we have done a swap
                 swapped = True
     return arr
-#You have passed all of the tests! :)
