@@ -17,7 +17,7 @@ print(sort_by_index_letter(['giraffe', 'orangutan', 'impala', 'elephant', 'rhino
 #Return ['geko', 'octopus', 'iguana', 'eagle', 'rattlesnake']
 
 #JavaScript version (does the same thing)
-# function sortByLetterV1(a1, a2) {
+# function sortArray(a1, a2) {
 #   // 1: Prepare result list (in JS, we declare arrays with let or const)
 #   let resultList = [];
 
