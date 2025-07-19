@@ -1,19 +1,11 @@
 def find_uniq(arr):
     # your code here
-
-    #1: Identity the recurring number
-    recurring_num = 0
-
-    # Placeholder for unique num
-    unique_num = 0
-
-        # Recurring number found
-    if (arr[0] == arr[1]): 
+    # Step 1: Reliably find the normal number.
+    if arr[0] == arr[1]:
         recurring_num = arr[0]
     else:
-        if (arr[2] == arr[0]):
-            unique_num = arr[1]
-            return unique_num
+        # If the first two differ, the third is the tie-breaker.
+        recurring_num = arr[2] # The normal number MUST be the third one in this case
     
     for num in arr:
         if (num != recurring_num):
