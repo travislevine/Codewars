@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Java
+.idea/
+*.iml
+out/
+target/
+*.class
+*.jar
+*.war
