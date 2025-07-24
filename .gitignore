@@ -1,14 +1,69 @@
-# Python
+# A comprehensive gitignore for Python and Java development.
+
+### General / Operating System Files ###
+# Ignore macOS system files
+.DS_Store
+# Ignore Windows thumbnail cache files
+Thumbs.db
+# Ignore log files, which should not be version controlled
+*.log
+*.log.*
+
+### IDEs and Editors ###
+# Ignore JetBrains / IntelliJ IDE files
+# This covers project-specific settings, caches, and user workspace settings.
+.idea/
+# Ignore VS Code settings folder
+.vscode/
+
+### Python ###
+# Byte-compiled / optimized / C-extensions
 __pycache__/
 *.pyc
-.env
-venv/
+*.pyo
+*.pyd
 
-# Java
-.idea/
-*.iml
-out/
-target/
+# Virtual environment folders
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables file (contains secrets)
+.env
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Testing artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+### Java / Build Systems ###
+# Compiled class files
 *.class
+
+# Packaged files
 *.jar
 *.war
+*.ear
+
+# IntelliJ specific
+# *.iml files are module-specific and should be ignored for solo projects.
+*.iml
+# Default IntelliJ compiler output folder
+out/
+
+# Maven build output
+target/
+
+# Gradle build output and cache
+.gradle/
+build/
+
+# Eclipse project files
+.project
+.classpath
