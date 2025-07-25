@@ -11,4 +11,4 @@ public class CalcAverage {
     }
 }
 //https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/java
-//You have passed all of the tests! :)
+//You have passed all the tests! :)
