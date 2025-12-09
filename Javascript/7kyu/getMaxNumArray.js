@@ -1,7 +1,7 @@
 // return the two oldest/oldest ages within the array of ages passed in.
 function getMaxNumArray(ages){
     var max = 0;
-    for (let i = 0; i < ages.length - 1; i++) {
+    for (let i = 0; i < ages.length; i++) {
         if (ages[i] > max) {
             max = ages[i];
             } 
