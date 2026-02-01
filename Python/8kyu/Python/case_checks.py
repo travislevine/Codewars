@@ -1,0 +1,2 @@
+STRANGE_STRING = 'foo'
+len(STRANGE_STRING.upper()) > len(STRANGE_STRING)
