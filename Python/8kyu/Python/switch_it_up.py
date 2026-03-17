@@ -13,3 +13,5 @@ def switch_it_up(number):
     }
     # .get() prevents an error if a number outside 0-9 is entered
     return number_map.get(number, "Invalid number")
+#https://www.codewars.com/kata/5808dcb8f0ed42ae34000031/train/python
+#You have passed all of the tests! :)
